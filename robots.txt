@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow specific pages
+Disallow: /dashboard.html
+Disallow: /dashboard
+Disallow: /reset-password.html
+Disallow: /reset-password
+Disallow: /gracies.html
+Disallow: /gracies
+
+# Sitemap
+Sitemap: https://wildbreathing.com/sitemap.xml

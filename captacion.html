@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Únete a Wild Breathing y comienza tu transformación">
+    <title>Comienza tu transformación - Wild Breathing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Wild Breathing</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="contacte.html">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="captacion-page">
+        <div class="container">
+            <section class="captacion-hero">
+                <h1>Comienza tu transformación</h1>
+                <p class="subtitle">Únete a Wild Breathing y descubre el poder de la respiración consciente</p>
+            </section>
+
+            <section class="captacion-content">
+                <div class="captacion-form-container">
+                    <h2>Regístrate ahora</h2>
+                    <form id="captacionForm" class="captacion-form">
+                        <div class="form-group">
+                            <label for="fullname">Nombre completo</label>
+                            <input type="text" id="fullname" name="fullname" required placeholder="Tu nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+34 123 456 789">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">¿Qué te interesa?</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="terapia">Terapia respiratoria individual</option>
+                                <option value="grupo">Sesiones grupales</option>
+                                <option value="online">Programa online</option>
+                                <option value="info">Solo información</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" name="privacy" required>
+                                Acepto la <a href="privacitat.html" target="_blank">política de privacidad</a>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
+                        </div>
+                    </form>
+                    <div id="captacionMessage" class="message"></div>
+                </div>
+
+                <div class="captacion-benefits">
+                    <h2>¿Por qué Wild Breathing?</h2>
+                    <ul class="benefits-list">
+                        <li>✅ Sesiones personalizadas adaptadas a tus necesidades</li>
+                        <li>✅ Técnicas probadas de respiración consciente</li>
+                        <li>✅ Mejora tu bienestar físico y mental</li>
+                        <li>✅ Acceso a recursos y materiales exclusivos</li>
+                        <li>✅ Comunidad de apoyo y crecimiento</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Wild Breathing</h4>
+                    <p>Terapia respiratoria y bienestar</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="avis-legal.html">Aviso Legal</a></li>
+                        <li><a href="privacitat.html">Privacidad</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wild Breathing. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/captacion.js"></script>
+</body>
+</html>

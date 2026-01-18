@@ -1,0 +1,14 @@
+# Pretty URLs redirects
+/dashboard    /dashboard.html    200
+/login        /login.html        200
+/sobre-mi     /sobre-mi.html     200
+/contacte     /contacte.html     200
+/captacion    /captacion.html    200
+/gracies      /gracies.html      200
+/avis-legal   /avis-legal.html   200
+/privacitat   /privacitat.html   200
+/cookies      /cookies.html      200
+/reset-password    /reset-password.html    200
+
+# Catch-all fallback
+/*    /index.html   200

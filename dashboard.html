@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panel de usuario de Wild Breathing">
+    <title>Dashboard - Wild Breathing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Wild Breathing</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="#" id="logoutBtn" class="btn-logout">Cerrar sesión</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="dashboard-page">
+        <div class="container">
+            <div class="dashboard-header">
+                <h1>Bienvenido, <span id="userName">Usuario</span></h1>
+                <p>Panel de control de Wild Breathing</p>
+            </div>
+
+            <div class="dashboard-content">
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <div class="card-icon">📊</div>
+                        <h3>Mis Estadísticas</h3>
+                        <p>Visualiza tu progreso y estadísticas de respiración.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Mis Objetivos</h3>
+                        <p>Establece y sigue tus objetivos de bienestar.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="card-icon">📅</div>
+                        <h3>Mis Sesiones</h3>
+                        <p>Programa y gestiona tus sesiones de terapia.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Recursos</h3>
+                        <p>Accede a materiales y recursos educativos.</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h2>Actividad Reciente</h2>
+                <div class="activity-list">
+                    <p class="empty-state">No hay actividad reciente para mostrar.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Wild Breathing</h4>
+                    <p>Terapia respiratoria y bienestar</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="avis-legal.html">Aviso Legal</a></li>
+                        <li><a href="privacitat.html">Privacidad</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wild Breathing. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
